@@ -69,13 +69,14 @@ a {
 }
 
 .product {
-    border: solid #888888 0.5px;
+    /* border: solid #888888 0.5px; */
     width: auto; 
 }
 
 
 .price {
     display: flex;
+    justify-content: space-between;
 }
 
 .section {
@@ -89,4 +90,14 @@ a {
 .img {
     width: 100%;
     margin: 5px;
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+    .section {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
 }
