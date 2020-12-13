@@ -18,12 +18,24 @@ a {
     color: #888888;
 }
 
-.nav-text {
-    margin-left: 5px;
+.header {
+    background-color: #D35266;
+    height: 250px;
 }
 
 .banner {
     display: flex;
     flex-flow: column;
     align-items: center;
+    color: white;
+    font-family: got;
+}
+
+.trans {
+    margin-bottom: 0;
+    margin-top: 80px;
+}
+
+.trans-vagen {
+    margin: 0;
 }
