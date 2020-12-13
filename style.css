@@ -69,8 +69,10 @@ a {
 }
 
 .product {
-    /* border: solid #888888 0.5px; */
+    border: solid #d8d7d7 0.5px; 
     width: auto; 
+    margin-bottom: 50px;
+    
 }
 
 
@@ -89,9 +91,30 @@ a {
 
 .img {
     width: 100%;
-    margin: 5px;
+    /* margin: 10px; */
 }
 
+.content {
+    margin: 10px;
+}
+
+.body {
+    background-color: rgb(253, 252, 252);
+    border-bottom: solid #888888 0.5px;
+}
+
+.footer {
+    border-bottom: solid #888888 0.5px;
+}
+
+.social-media {
+    display: flex;
+}
+
+.social {
+    margin-top: 20px;
+    margin-left: 20px;
+}
 
 
 
