@@ -1,6 +1,8 @@
 .nav-bar {
     background-color: #383838;
     height: 50px;
+    position: sticky;
+    top: 0;
 }
 
 .company {
@@ -79,6 +81,7 @@ a {
 .price {
     display: flex;
     justify-content: space-between;
+    color: #D35266;
 }
 
 .section {
@@ -96,6 +99,7 @@ a {
 
 .content {
     margin: 10px;
+    color: #888888;
 }
 
 .body {
@@ -103,18 +107,25 @@ a {
     border-bottom: solid #888888 0.5px;
 }
 
-.footer {
-    border-bottom: solid #888888 0.5px;
-}
-
 .social-media {
     display: flex;
+    
+}
+
+.footer {
+    border-bottom: solid #888888 0.5px;
 }
 
 .social {
     margin-top: 20px;
     margin-left: 20px;
+    color: #888888;
 }
+
+.copyright {
+    align-self: center;
+}
+
 
 
 
