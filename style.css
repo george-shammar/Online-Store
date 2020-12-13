@@ -39,3 +39,9 @@ a {
 .trans-vagen {
     margin: 0;
 }
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
