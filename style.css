@@ -126,11 +126,32 @@ a {
     align-self: center;
 }
 
+.flex-footer {
+    display: none;
+}
+
+
 
 
 
 @media screen and (min-width: 768px) {
     .section {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .flex-shop {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .shop {
+        line-height: 1.5px;
+        padding: 0;
+        margin: 10px;
+    }
+    
+    .flex-footer {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
