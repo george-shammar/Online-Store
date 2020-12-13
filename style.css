@@ -130,6 +130,10 @@ a {
     display: none;
 }
 
+.sub-categories {
+    display: none;
+}
+
 
 
 
@@ -158,5 +162,9 @@ a {
 
     .border-footer {
         border-bottom: solid #888888 0.5px;
+    }
+    
+    .sub-categories {
+        display: block;
     }
 }
