@@ -155,4 +155,8 @@ a {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
+
+    .border-footer {
+        border-bottom: solid #888888 0.5px;
+    }
 }
