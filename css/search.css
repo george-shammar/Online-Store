@@ -1,0 +1,23 @@
+.nav-bar {
+    background-color: #383838;
+    height: 50px;
+    position: sticky;
+    top: 0;
+}
+
+
+.company {
+    color: #D35266;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+
+a {
+    text-decoration: none;
+    color: #888888;
+}
