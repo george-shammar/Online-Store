@@ -27,12 +27,6 @@
     color: #D35266;
 }
 
-.nav-links {
-    display: flex;
-    justify-content: space-between;
-    width: 80%;
-}
-
 
 a {
     text-decoration: none;
@@ -270,7 +264,7 @@ a {
     .nav-links {
         display: flex;
         justify-content: space-between;
-        width: 80%;
+        width: 60%;
         font-family: helvetica;
     }
 
