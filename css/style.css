@@ -158,10 +158,6 @@ a {
     display: none;
 }
 
-.list-button {
-    /* padding-top: 20px; */
-}
-
 .product-section {
     display: flex;
     justify-content: space-between;
