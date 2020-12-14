@@ -125,8 +125,8 @@ a {
 }
 
 .search-result-img {
-    /* margin: 20px; */
     width: 40%;
+    height: 200px;
 }
 
 .second-p {
