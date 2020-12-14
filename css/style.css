@@ -127,13 +127,15 @@ a {
 }
 
 .content {
-    margin: 10px;
+    margin: 20px;
     color: #888888;
 }
 
 .body {
     background-color: rgb(253, 252, 252);
     border-bottom: solid #888888 0.5px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .social-media {
@@ -163,7 +165,9 @@ a {
     display: none;
 }
 
-
+.list-button {
+    padding-top: 20px;
+}
 
 
 
