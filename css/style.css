@@ -1,3 +1,9 @@
+/* Fonts */
+@font-face {
+    font-family: gotham;
+    src: url(gothambold);
+}
+
 .nav-bar {
     background-color: #383838;
     height: 50px;
@@ -7,12 +13,18 @@
 
 .company {
     color: #D35266;
+    font-family: gotham;
+}
+
+.fas {
+    
 }
 
 .nav-links {
     display: flex;
     justify-content: space-between;
     width: 80%;
+    font-family: gotham;
 }
 
 a {
@@ -133,6 +145,7 @@ a {
 .sub-categories {
     display: none;
 }
+
 
 
 
