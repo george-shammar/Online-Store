@@ -54,7 +54,7 @@ To get a local copy up and running, follow these simple example steps:
 
 Contributions and feature requests are welcome!  
 
-Feel free to check the [issues page](https://github.com/gscarv13/Newsweek-clone/issues).
+Feel free to check the [issues page](https://github.com/george-shammar/Online-Store/issues).
 
 ## Show your support
 
