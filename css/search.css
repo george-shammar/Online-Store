@@ -6,6 +6,10 @@
     src: url(HelveticaNeue);
 }
 
+.body {
+    margin-left: 50px;
+    margin-right: 50px;
+}
 
 .pink {
     font-family: gotham;
@@ -159,7 +163,7 @@ a {
 
 .side-panel {
     display: none;
-    
+
 }
 
 
@@ -195,7 +199,6 @@ a {
     .items {
         border-top: solid #888888 0.05px;
         border-right: solid #888888 0.05px; 
-        margin-right: 20px;
     }
 
     
