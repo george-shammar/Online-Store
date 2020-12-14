@@ -134,8 +134,8 @@ a {
 .body {
     background-color: rgb(253, 252, 252);
     border-bottom: solid #888888 0.5px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .social-media {
@@ -167,6 +167,11 @@ a {
 
 .list-button {
     padding-top: 20px;
+}
+
+.product-section {
+    display: flex;
+    justify-content: space-between;
 }
 
 
@@ -201,4 +206,12 @@ a {
     .sub-categories {
         display: block;
     }
+
+    
+.body {
+    background-color: rgb(253, 252, 252);
+    border-bottom: solid #888888 0.5px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
 }
