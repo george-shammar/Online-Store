@@ -140,11 +140,8 @@ a {
 
 .social-media {
     display: flex;
+    justify-content: space-between;
     
-}
-
-.footer {
-    border-bottom: solid #888888 0.5px;
 }
 
 .social {
@@ -172,6 +169,11 @@ a {
 .product-section {
     display: flex;
     justify-content: space-between;
+}
+
+.footer {
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 
@@ -208,10 +210,18 @@ a {
     }
 
     
-.body {
-    background-color: rgb(253, 252, 252);
-    border-bottom: solid #888888 0.5px;
-    margin-left: 50px;
-    margin-right: 50px;
+    .body {
+        background-color: rgb(253, 252, 252);
+         border-bottom: solid #888888 0.5px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    
+    .footer {
+        margin-left: 50px;
+        margin-right: 50px;
 }
+
+
 }
