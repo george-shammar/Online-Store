@@ -1,5 +1,9 @@
+![](https://img.shields.io/badge/Microverse-blueviolet)
+
 # Online-Store
 Online store for medical equipment and supplies.
+
+![screenshot](../assets/image/image-eleven.jpg)
 
 The project is an Online Store for Medical Equipment, Pharmaceutical and Surgical supplies. The project aims to show case an array of medical equipments with their corresponding prices available for sale.
 
@@ -65,5 +69,3 @@ Give a ⭐️ if you like this project!
 This project is [MIT](https://opensource.org/licenses/mit-license.php) licensed.
 
 Based on  Creative Commons license of the design, design idea was by Mohammed Awad on Behance.
-
-![screenshot](../assets/image/image-eleven.jpg)
