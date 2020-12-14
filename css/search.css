@@ -91,9 +91,8 @@ a {
 .search-result {
     display: flex;
     width: 100%;
-    border-top: solid #888888 0.1px;
     margin-top: 20px;
-    border-left: solid #888888 0.1px;
+    
 
 }
 
@@ -141,4 +140,28 @@ a {
     .sub-categories {
         display: block;
     }
+
+    .search-grid {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .search-result {
+        width: 100%;
+    }
+
+    .side-panel {
+        width: 30%;
+        border-right: solid #888888 0.05px;
+        border-top: solid #888888 0.05px;
+    }
+
+    .items {
+        border-top: solid #888888 0.05px;
+        border-right: solid #888888 0.05px;
+    }
+
+    
+    
 }
