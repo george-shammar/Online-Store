@@ -1,10 +1,28 @@
+/* Fonts */
+@font-face {
+    font-family: gotham;
+    src: url(gothambold);
+    font-family: Helvetica;
+    src: url(HelveticaNeue);
+}
+
+
+.pink {
+    font-family: gotham;
+    color: #D35266;
+}
+
+.grey {
+    font-family: helvetica;
+    color: #888888;
+}
+
 .nav-bar {
     background-color: #383838;
     height: 50px;
     position: sticky;
     top: 0;
 }
-
 
 .company {
     color: #D35266;
@@ -92,16 +110,16 @@ a {
     display: flex;
     width: 100%;
     margin-top: 20px;
-    
+    /* margin-left: 20px; */
+}
 
+.grey {
+    font-family: helvetica;
+    color: #888888;
 }
 
 .search-result-img {
     margin: 20px;
-}
-
-.black {
-    color: #D35266;
 }
 
 .second-p {
@@ -141,6 +159,7 @@ a {
 
 .side-panel {
     display: none;
+    
 }
 
 
@@ -175,7 +194,8 @@ a {
 
     .items {
         border-top: solid #888888 0.05px;
-        border-right: solid #888888 0.05px;
+        border-right: solid #888888 0.05px; 
+        margin-right: 20px;
     }
 
     
