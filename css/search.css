@@ -113,8 +113,15 @@ a {
 .search-result {
     display: flex;
     width: 100%;
-    margin-top: 20px;
-    /* margin-left: 20px; */
+    margin: 0;
+}
+
+.border-bottom {
+    border-bottom: solid #888888 0.05px;
+}
+
+.border-middle {
+    border-bottom: solid #888888 0.05px;
 }
 
 .grey {
@@ -123,7 +130,8 @@ a {
 }
 
 .search-result-img {
-    margin: 20px;
+    /* margin: 20px; */
+    width: 40%;
 }
 
 .second-p {
@@ -170,6 +178,11 @@ a {
 .copyright {
     text-align: center;
    }
+
+   /* .items {
+        border-top: solid #888888 0.05px;
+        border-right: solid #888888 0.05px; 
+    } */
 
 
 /* Large screen break point */
