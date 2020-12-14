@@ -2,6 +2,8 @@
 @font-face {
     font-family: gotham;
     src: url(gothambold);
+    font-family: Helvetica;
+    src: url(HelveticaNeue);
 }
 
 .nav-bar {
@@ -16,15 +18,11 @@
     font-family: gotham;
 }
 
-.fas {
-    
-}
-
 .nav-links {
     display: flex;
     justify-content: space-between;
     width: 80%;
-    font-family: gotham;
+    font-family: helvetica;
 }
 
 a {
@@ -48,10 +46,13 @@ a {
 .trans {
     margin-bottom: 0;
     margin-top: 80px;
+    font-family: gotham;
 }
 
 .trans-vagen {
     margin: 0;
+    font-family: helvetica;
+    font-size: 15px;
 }
 
 .tabs {
@@ -65,6 +66,7 @@ a {
     padding-top: 15px;
     padding-bottom: 15px;
     width: 100%;
+    font-family: helvetica;
 }
 
 .search {
@@ -93,7 +95,12 @@ a {
 .price {
     display: flex;
     justify-content: space-between;
-    color: #D35266;
+}
+
+.figure {
+    background-color: #D35266;
+    color: #383838;
+    padding: 5px;
 }
 
 .section {
@@ -101,7 +108,17 @@ a {
     grid-template-columns: 1fr 1fr;
     gap: 20px;
     width: 100%;
-    margin-top: 50px;
+    margin-top: 10px;
+}
+
+.pink {
+    font-family: gotham;
+    color: #D35266;
+}
+
+.grey {
+    font-family: helvetica;
+    color: #888888;
 }
 
 .img {
