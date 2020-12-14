@@ -3,7 +3,6 @@
 # Online-Store
 Online store for medical equipment and supplies.
 
-![screenshot](../assets/image/image-eleven.jpg)
 
 The project is an Online Store for Medical Equipment, Pharmaceutical and Surgical supplies. The project aims to show case an array of medical equipments with their corresponding prices available for sale.
 
@@ -36,7 +35,7 @@ The serach result page contains a group of checkboxes to facilitate prodcut sear
 
 ## Live Demo
 
-
+https://george-shammar.github.io/Online-Store/
 
 
 ## Getting Started
