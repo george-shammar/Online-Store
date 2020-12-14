@@ -18,13 +18,6 @@
     font-family: gotham;
 }
 
-.nav-links {
-    display: flex;
-    justify-content: space-between;
-    width: 80%;
-    font-family: helvetica;
-}
-
 a {
     text-decoration: none;
     color: #888888;
@@ -180,6 +173,21 @@ a {
     margin-left: 5px;
 }
 
+.nav-links {
+    display: none;
+}
+
+.hamburger {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    color: white;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
 
 
 
@@ -225,7 +233,21 @@ a {
     .footer {
         margin-left: 50px;
         margin-right: 50px;
-}
+    }
+
+    
+    .nav-links {
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        font-family: helvetica;
+    }
+
+    
+    .hamburger {
+        display: none;
+    }
+
 
 
 }
