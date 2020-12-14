@@ -142,7 +142,7 @@ a {
 
 .social-media {
     display: flex;
-    
+    justify-content: space-between;
 }
 
 .footer {
