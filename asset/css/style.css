@@ -191,6 +191,13 @@ a {
   padding-top: 35%;
 }
 
+.social-media{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  width: 100%;
+}
+
 @media screen and (min-width: 768px) {
   .section {
     display: grid;
