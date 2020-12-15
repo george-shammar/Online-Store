@@ -190,8 +190,7 @@ a {
 .prev, .next {
   position: absolute;
   cursor: pointer;
-  color: #383838
-  font-weight: bold;
+  color: #383838;
   font-size: 25px;
 }
 
