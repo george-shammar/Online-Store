@@ -1,8 +1,8 @@
 /* Fonts */
 @font-face {
-  font-family: gotham;
+  font-family: 'Gotham Bold', 'Gotham-Light', Arial, Helvetica, sans-serif;
   src: url(gothambold);
-  font-family: Helvetica;
+  font-family: Helvetica, 'Gotham Bold', 'Gotham-Light', Arial, sans-serif;
   src: url(HelveticaNeue);
 }
 
@@ -15,7 +15,7 @@
 
 .company {
   color: #d35266;
-  font-family: 'gotham' 'Helvetica', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Gotham Bold', 'Gotham-Light', Arial, Helvetica, sans-serif;
 }
 
 a {
@@ -38,12 +38,12 @@ a {
 .trans {
   margin-bottom: 0;
   margin-top: 80px;
-  font-family: 'gotham' 'Helvetica', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Gotham Bold', 'Gotham-Light', Arial, Helvetica, sans-serif;
 }
 
 .trans-vagen {
   margin: 0;
-  font-family: Helvetica, 'gotham', sans-serif;
+  font-family: Helvetica, 'Gotham Bold', 'Gotham-Light', Arial, sans-serif;
   font-size: 15px;
 }
 
@@ -58,7 +58,7 @@ a {
   padding-top: 15px;
   padding-bottom: 15px;
   width: 100%;
-  font-family: Helvetica, 'gotham', sans-serif;
+  font-family: Helvetica, 'Gotham Bold', 'Gotham-Light', Arial, sans-serif;
 }
 
 .search {
@@ -107,12 +107,12 @@ a {
 }
 
 .pink {
-  font-family: 'gotham' 'Helvetica', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Gotham Bold', 'Gotham-Light', Arial, Helvetica, sans-serif;
   color: #d35266;
 }
 
 .grey {
-  font-family: Helvetica, 'gotham', sans-serif;
+  font-family: Helvetica, 'Gotham Bold', 'Gotham-Light', Arial, sans-serif;
   color: #888;
 }
 
