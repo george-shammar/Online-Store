@@ -1,13 +1,13 @@
 /* Fonts */
 @font-face {
-  font-family: 'Gotham Bold', Helvetica, 'Gotham-Light';
+  font-family: 'Gotham Bold', Helvetica, 'Gotham-Light' Arial, Helvetica, sans-serif;
   src: url(gothambold);
   font-family: 'Helvetica';
   src: url(HelveticaNeue);
 }
 
 .pink {
-  font-family: 'GothamBold', Helvetica, 'Gotham-Light';
+  font-family: 'Gotham Bold', Helvetica, 'Gotham-Light' Arial, Helvetica, sans-serif;
   color: #d35266;
 }
 
