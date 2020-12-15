@@ -33,7 +33,6 @@ a {
   flex-flow: column;
   align-items: center;
   color: white;
-  
 }
 
 .trans {
@@ -83,7 +82,6 @@ a {
   border: solid #d8d7d7 0.5px;
   width: auto;
 }
-
 
 .price {
   display: flex;
@@ -227,12 +225,10 @@ a {
     margin-right: 50px;
   }
 
-
   .footer {
     margin-left: 50px;
     margin-right: 50px;
   }
-
 
   .nav-links {
     display: flex;
@@ -240,7 +236,6 @@ a {
     width: 60%;
     font-family: Helvetica, 'gotham', sans-serif;
   }
-
 
   .hamburger {
     display: none;
