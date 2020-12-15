@@ -2,7 +2,7 @@
 @font-face {
   font-family: 'Gotham Bold', 'Gotham-Light', Arial, Helvetica, sans-serif;
   src: url(gothambold);
-  font-family: Helvetica 'Gotham Bold', 'Gotham-Light', Arial, sans-serif;
+  font-family: Helvetica, 'Gotham Bold', 'Gotham-Light', Arial, sans-serif;
   src: url(HelveticaNeue);
 }
 
@@ -105,7 +105,7 @@ a {
 }
 
 .grey {
-  font-family: Helvetica 'Gotham Bold', 'Gotham-Light', Arial, sans-serif;
+  font-family: Helvetica, 'Gotham Bold', 'Gotham-Light', Arial, sans-serif;
   color: #888;
 }
 
@@ -236,7 +236,7 @@ a {
     display: flex;
     justify-content: space-between;
     width: 60%;
-    font-family: Helvetica 'Gotham Bold', 'Gotham-Light', Arial, sans-serif;
+    font-family: Helvetica, 'Gotham Bold', 'Gotham-Light', Arial, sans-serif;
   }
 
   .hamburger {
