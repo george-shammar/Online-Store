@@ -15,7 +15,7 @@
 
 .company {
   color: #d35266;
-  font-family: gotham;
+  font-family: 'gotham' 'Helvetica', 'Arial Narrow', Arial, sans-serif;
 }
 
 a {
@@ -33,18 +33,18 @@ a {
   flex-flow: column;
   align-items: center;
   color: white;
-  font-family: got;
+  
 }
 
 .trans {
   margin-bottom: 0;
   margin-top: 80px;
-  font-family: gotham;
+  font-family: 'gotham' 'Helvetica', 'Arial Narrow', Arial, sans-serif;
 }
 
 .trans-vagen {
   margin: 0;
-  font-family: helvetica;
+  font-family: Helvetica, 'gotham', sans-serif;
   font-size: 15px;
 }
 
@@ -59,7 +59,7 @@ a {
   padding-top: 15px;
   padding-bottom: 15px;
   width: 100%;
-  font-family: helvetica;
+  font-family: Helvetica, 'gotham', sans-serif;
 }
 
 .search {
@@ -76,12 +76,12 @@ a {
   padding-left: 5px;
   margin-top: 17px;
   background-color: #383838;
-  color: #888888;
+  color: #888;
 }
 
 .product {
-  border: solid #d8d7d7 0.5px; 
-  width: auto; 
+  border: solid #d8d7d7 0.5px;
+  width: auto;
 }
 
 
@@ -94,7 +94,7 @@ a {
 }
 
 .figure {
-  background-color: #D35266;
+  background-color: #d35266;
   color: #383838;
   padding: 5px;
   margin: 0;
@@ -109,13 +109,13 @@ a {
 }
 
 .pink {
-  font-family: gotham;
-  color: #D35266;
+  font-family: 'gotham' 'Helvetica', 'Arial Narrow', Arial, sans-serif;
+  color: #d35266;
 }
 
 .grey {
-  font-family: helvetica;
-  color: #888888;
+  font-family: Helvetica, 'gotham', sans-serif;
+  color: #888;
 }
 
 .img {
@@ -125,12 +125,12 @@ a {
 
 .content {
   margin: 20px;
-  color: #888888;
+  color: #888;
 }
 
 .body {
   background-color: rgb(253, 252, 252);
-  border-bottom: solid #888888 0.5px;
+  border-bottom: solid #888 0.5px;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -138,13 +138,12 @@ a {
 .social-media {
   display: flex;
   justify-content: space-between;
-    
 }
 
 .social {
   margin-top: 20px;
   margin-left: 20px;
-  color: #888888;
+  color: #888;
 }
 
 .copyright {
@@ -200,49 +199,49 @@ a {
     display: flex;
     flex-direction: column;
   }
-    
+
   .shop {
     line-height: 1.5px;
     padding: 0;
     margin: 10px;
   }
-    
+
   .flex-footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 
   .border-footer {
-    border-bottom: solid #888888 0.5px;
+    border-bottom: solid #888 0.5px;
   }
-    
+
   .sub-categories {
     display: block;
   }
 
-    
+
   .body {
     background-color: rgb(253, 252, 252);
-    border-bottom: solid #888888 0.5px;
+    border-bottom: solid #888 0.5px;
     margin-left: 50px;
     margin-right: 50px;
   }
 
-    
+
   .footer {
     margin-left: 50px;
     margin-right: 50px;
   }
 
-    
+
   .nav-links {
     display: flex;
     justify-content: space-between;
     width: 60%;
-    font-family: helvetica;
+    font-family: Helvetica, 'gotham', sans-serif;
   }
 
-    
+
   .hamburger {
     display: none;
   }
