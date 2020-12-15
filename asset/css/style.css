@@ -187,6 +187,24 @@ a {
   margin-right: 10px;
 }
 
+.prev, .next {
+  position: absolute;
+  cursor: pointer;
+  color: #383838
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.next {
+  right: 1%;
+  padding-top: 35%;
+}
+
+.prev {
+  left: 1%;
+  padding-top: 35%;
+}
+
 @media screen and (min-width: 768px) {
   .section {
     display: grid;
@@ -238,14 +256,6 @@ a {
 
   .hamburger {
     display: none;
-  }
-
-  .prev, .next {
-    position: absolute;
-    cursor: pointer;
-    color: black;
-    font-weight: bold;
-    font-size: 25px;
   }
   
   .next {
