@@ -1,9 +1,9 @@
 /* Fonts */
 @font-face {
-    font-family: gotham;
-    src: url(gothambold);
-    font-family: Helvetica;
-    src: url(HelveticaNeue);
+  font-family: gotham;
+  src: url(gothambold);
+  font-family: Helvetica;
+  src: url(HelveticaNeue);
 }
 
 .nav-bar {
