@@ -300,3 +300,311 @@ a {
     border-bottom: solid #d35266 0.5px;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Fonts */
+@font-face {
+  font-family: 'Gotham Bold', 'Gotham-Light', Arial, Helvetica, sans-serif;
+  src: url(gothambold);
+  font-family: Helvetica, 'Gotham Bold', 'Gotham-Light', Arial, sans-serif;
+  src: url(HelveticaNeue);
+}
+
+.pink {
+  font-family: 'Gotham Bold', 'Gotham-Light', Arial, Helvetica, sans-serif;
+  color: #d35266;
+}
+
+.body {
+  /* background-color: rgb(231, 229, 229); */
+  /* margin-bottom: 20px; */
+}
+
+.featured {
+  margin-top: 0;
+  padding-top: 20px;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #383838;
+  height: 50px;
+  position: sticky;
+  top: 0;
+}
+
+.company {
+  color: #d35266;
+}
+
+a {
+  text-decoration: none;
+  color: #888;
+}
+
+.text-first {
+  padding: 20px;
+}
+
+.header {
+  background-color: #d35266;
+  height: 200px;
+}
+
+.banner {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  color: white;
+  margin-left: 50px;
+  margin-right: 20px;
+}
+
+.trans {
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+
+.trans-vagen {
+  margin: 0;
+}
+
+.tabs {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 10px;
+  margin-left: 50px;
+  margin-right: 20px;
+  width: auto;
+}
+
+.form {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+}
+
+.search {
+  margin-top: 16px;
+  width: auto;
+}
+
+.categories {
+  width: auto;
+}
+
+.search-tab {
+  margin-left: 5px;
+  background-color: #383838;
+  color: #888;
+}
+
+.sub-categories {
+  display: none;
+}
+
+.price-tag {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.search-result {
+  display: flex;
+  width: 100%;
+  margin: 0;
+}
+
+.border-bottom {
+  border-bottom: solid #888 0.05px;
+}
+
+.border-middle {
+  border-bottom: solid #888 0.05px;
+}
+
+.grey {
+  font-family: Helvetica, 'Gotham Bold', 'Gotham-Light', Arial, sans-serif;
+  color: #888;
+}
+
+.search-result-img {
+  width: 40%;
+  height: 200px;
+  padding-left: 20px;
+}
+
+.second-p {
+  color: #888;
+}
+
+.amount {
+  background-color: #d35266;
+  padding: 2px;
+  margin-right: 40px;
+  color: white;
+}
+
+.social-media {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social {
+  margin-top: 20px;
+  margin-left: 20px;
+  color: #888;
+}
+
+.copyright {
+  align-self: center;
+}
+
+.side-panel {
+  display: none;
+}
+
+.nav-links {
+  display: none;
+}
+
+.hamburger {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  color: white;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.items {
+  border-top: solid #888 0.05px;
+  border-right: solid #888 0.05px;
+}
+
+.social-media{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+}
+
+.icons {
+  padding-top: 15px;
+} 
+
+/* Large screen break point */
+
+@media screen and (min-width: 768px) {
+  .nav-links {
+    margin-right: 50px;
+  }
+
+  .sub-categories {
+    display: block;
+  }
+
+  .search-grid {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .search-result {
+    width: 100%;
+  }
+
+  .side-panel {
+    display: block;
+    width: 30%;
+    border-right: solid #888 0.05px;
+    border-top: solid #888 0.05px;
+  }
+
+  .social-media {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .nav-links {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    font-family: Helvetica, 'Gotham Bold', 'Gotham-Light', Arial, sans-serif;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .grid-item-two {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-around;
+    width: 100%;
+    border-top: solid #888 0.5px;
+    border-bottom: solid #888 0.5px;
+    font-size: 13px;
+  }
+
+  .last {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  .padding {
+    padding-top: 40px;
+    margin-right: 100px;
+  }
+
+  .underline {
+    border-bottom: solid #d35266 0.5px;
+  }
+
+  .equal {
+    padding-left: 100px;
+  }
+}
