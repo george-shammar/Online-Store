@@ -46,10 +46,7 @@ a {
 .banner {
   display: flex;
   flex-flow: column;
-  /* align-items: flex-start; */
   color: white;
-  /* margin-left: 50px;
-  margin-right: 20px; */
   text-align: center;
 }
 
@@ -65,10 +62,8 @@ a {
 .tabs {
   display: flex;
   justify-content: center;
-  /* margin-top: 10px;
-  margin-left: 50px; */
   width: auto;
-  text-align: center; */
+  text-align: center;
 }
 
 .placeholder {
@@ -130,8 +125,6 @@ a {
 .search-result-img {
   width: 100%;
   height: 200px;
-  /* padding-left: 20px; */
-
 }
 
 .second-p {
@@ -148,17 +141,7 @@ a {
 .icons {
   padding-top: 15px;
   text-align: right;
-} 
-/* 
-.social {
-  margin-top: 20px;
-  margin-left: 20px;
-  color: #888;
-} */
-/* 
-.copyright {
-  align-self: center;
-} */
+}
 
 .side-panel {
   display: none;
@@ -238,7 +221,6 @@ a {
   .side-panel {
     display: block;
     width: 30%;
-    /* border-right: solid #888 0.05px; */
     border-top: solid #888 0.05px;
   }
 
