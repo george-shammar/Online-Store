@@ -128,6 +128,7 @@ a {
 .amount {
   background-color: #d35266;
   padding: 2px;
+  margin-right: 40px;
   color: white;
 }
 
@@ -263,11 +264,6 @@ a {
 
   .hamburger {
     display: none;
-  }
-
-  .body {
-    margin-left: 50px;
-    margin-right: 50px;
   }
 
   .grid-item-two {
