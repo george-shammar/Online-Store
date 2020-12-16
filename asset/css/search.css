@@ -143,10 +143,17 @@ a {
   color: white;
 }
 
-.social-media {
+.social-media{
   display: flex;
+  /* grid-template-columns: 1fr 1fr; */
+  width: 100%;
   justify-content: space-between;
 }
+
+.icons {
+  padding-top: 15px;
+  text-align: right;
+} 
 
 .social {
   margin-top: 20px;
