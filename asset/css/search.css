@@ -238,7 +238,7 @@ a {
   .side-panel {
     display: block;
     width: 30%;
-    border-right: solid #888 0.05px;
+    /* border-right: solid #888 0.05px; */
     border-top: solid #888 0.05px;
   }
 
