@@ -268,7 +268,6 @@ a {
   .footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    /* justify-content: center; */
     width: 100%;
     border-top: solid #888 0.5px;
     border-bottom: solid #888 0.5px;
