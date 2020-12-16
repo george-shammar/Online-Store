@@ -163,6 +163,8 @@ a {
   justify-content: space-between;
   margin-top: 0;
   margin-bottom: 0;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .nav-links {
