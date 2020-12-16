@@ -204,10 +204,24 @@ a {
   text-align: right;
 } 
 
+.equal {
+  text-align: center;
+}
+
+.margin {
+  text-align: center;
+}
+
+
+
 
 @media screen and (min-width: 768px) {
   .nav-links {
     margin-right: 50px;
+  }
+
+  .underline{
+    display: block;
   }
   .section {
     display: grid;
@@ -274,6 +288,7 @@ a {
   }
 
   .margin {
+    text-align: start;
     margin-left: 50px;
     margin-right: 50px;
   }
@@ -349,6 +364,10 @@ a {
 
 .underline {
   border-bottom: solid #d35266 0.5px;
+}
+
+.margin {
+  text-align: start;
 }
 
 
