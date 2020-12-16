@@ -27,6 +27,10 @@ a {
   color: #888;
 }
 
+.text-first {
+  padding: 20px;
+}
+
 .header {
   background-color: #d35266;
   height: 200px;
@@ -112,6 +116,7 @@ a {
 .search-result-img {
   width: 40%;
   height: 200px;
+  padding-left: 20px;
 }
 
 .second-p {
