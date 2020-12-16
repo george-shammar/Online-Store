@@ -54,13 +54,17 @@ a {
   display: flex;
   justify-content: center;
   margin-top: 15px;
-  width: 100%;
+  max-width: 100%;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .form {
   padding-top: 15px;
   padding-bottom: 15px;
   width: 100%;
+  padding-left: 0;
+  padding-right: 0;
   font-family: Helvetica, 'Gotham Bold', 'Gotham-Light', Arial, sans-serif;
 }
 
@@ -74,8 +78,7 @@ a {
 }
 
 .search-tab {
-  margin-left: 5px;
-  padding-left: 5px;
+
   margin-top: 17px;
   background-color: #383838;
   color: #888;
@@ -85,6 +88,7 @@ a {
   border: solid #d8d7d7 0.5px;
   width: auto;
   background-color: white;
+  margin: 10px;
 }
 
 .price {
@@ -100,14 +104,6 @@ a {
   color: #383838;
   padding: 5px;
   margin: 0;
-}
-
-.section {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-  width: 100%;
-  margin-bottom: 0;
 }
 
 .pink {
@@ -218,6 +214,8 @@ a {
   .section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
   .flex-shop {
@@ -234,12 +232,6 @@ a {
   .sub-categories {
     display: block;
   }
-/* 
-  .body {
-    background-color: rgb(253, 252, 252);
-    margin-left: 50px;
-    margin-right: 50px;
-  } */
 
   .nav-links {
     display: flex;
@@ -299,12 +291,42 @@ a {
   .underline {
     border-bottom: solid #d35266 0.5px;
   }
+  
+.search-tab {
+  margin-left: 5px;
+  padding-left: 5px;
+  margin-top: 17px;
+  background-color: #383838;
+  color: #888;
+}
+
+
 }
 
 
 
 
+@media screen and (min-width: 480px) and (max-width: 767px) {
 
+  .section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 100%;
+    margin-bottom: 0;
+  }
+  
+.search-tab {
+  margin-left: 5px;
+  padding-left: 5px;
+  margin-top: 17px;
+  background-color: #383838;
+  color: #888;
+}
+
+
+
+}
 
 
 
