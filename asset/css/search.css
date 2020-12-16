@@ -110,7 +110,7 @@ a {
 }
 
 .border-bottom {
-   border-bottom: solid #888 0.05px;
+  border-bottom: solid #888 0.05px;
 }
 
 .border-middle {
@@ -164,7 +164,6 @@ a {
 
 .items {
   border: solid #888 0.05px;
-
 }
 
 .social-media{
@@ -178,7 +177,7 @@ a {
 
 .footer {
   text-align: center;
-} 
+}
 
 /* Large screen break point */
 
