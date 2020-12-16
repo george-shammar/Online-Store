@@ -138,11 +138,6 @@ a {
   color: white;
 }
 
-.icons {
-  padding-top: 15px;
-  text-align: right;
-}
-
 .side-panel {
   display: none;
 }
@@ -182,10 +177,6 @@ a {
 /* Large screen break point */
 
 @media screen and (min-width: 768px) {
-  .nav-links {
-    margin-right: 50px;
-  }
-
   .sub-categories {
     display: block;
   }

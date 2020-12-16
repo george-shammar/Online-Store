@@ -193,12 +193,6 @@ a {
   padding-top: 35%;
 }
 
-.social-media {
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-}
-
 .icons {
   padding-top: 15px;
   text-align: right;
@@ -213,12 +207,9 @@ a {
 }
 
 @media screen and (min-width: 768px) {
-  .nav-links {
-    margin-right: 50px;
-  }
-
   .underline {
     display: block;
+    border-bottom: solid #d35266 0.5px;
   }
 
   .section {
@@ -297,10 +288,6 @@ a {
 
   .padding {
     padding-top: 40px;
-  }
-
-  .underline {
-    border-bottom: solid #d35266 0.5px;
   }
 
   .search-tab {
