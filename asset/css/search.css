@@ -12,6 +12,8 @@
 }
 
 .nav-bar {
+  display: flex;
+  justify-content: space-between;
   background-color: #383838;
   height: 50px;
   position: sticky;
@@ -189,6 +191,10 @@ a {
 /* Large screen break point */
 
 @media screen and (min-width: 768px) {
+  .nav-links {
+    margin-right: 50px;
+  }
+
   .sub-categories {
     display: block;
   }
