@@ -128,7 +128,7 @@ a {
 .body {
   background-color: rgb(231, 229, 229);
   margin-bottom: 20px;
-  }
+}
 
 .featured {
   padding-top: 20px;
@@ -175,7 +175,8 @@ a {
   margin-right: 10px;
 }
 
-.prev, .next {
+.prev,
+.next {
   position: absolute;
   cursor: pointer;
   color: #383838;
@@ -201,7 +202,7 @@ a {
 .icons {
   padding-top: 15px;
   text-align: right;
-} 
+}
 
 .equal {
   text-align: center;
@@ -211,17 +212,15 @@ a {
   text-align: center;
 }
 
-
-
-
 @media screen and (min-width: 768px) {
   .nav-links {
     margin-right: 50px;
   }
 
-  .underline{
+  .underline {
     display: block;
   }
+
   .section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -303,23 +302,17 @@ a {
   .underline {
     border-bottom: solid #d35266 0.5px;
   }
-  
-.search-tab {
-  margin-left: 5px;
-  padding-left: 5px;
-  margin-top: 17px;
-  background-color: #383838;
-  color: #888;
+
+  .search-tab {
+    margin-left: 5px;
+    padding-left: 5px;
+    margin-top: 17px;
+    background-color: #383838;
+    color: #888;
+  }
 }
-
-
-}
-
-
-
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
-
   .section {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -328,50 +321,46 @@ a {
     margin-bottom: 0;
   }
   
-.search-tab {
-  margin-left: 5px;
-  padding-left: 5px;
-  margin-top: 17px;
-  background-color: #383838;
-  color: #888;
+  .search-tab {
+    margin-left: 5px;
+    padding-left: 5px;
+    margin-top: 17px;
+    background-color: #383838;
+    color: #888;
+  }
+
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    width: 100%;
+    border-top: solid #888 0.5px;
+    border-bottom: solid #888 0.5px;
+    font-size: 13px;
+    gap: 50px;
+  }
+
+  .grid-item-two {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .last {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .underline {
+    border-bottom: solid #d35266 0.5px;
+  }
+
+  .margin {
+    text-align: start;
+  }
 }
 
-
-.footer {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-content: space-around;
-  width: 100%;
-  border-top: solid #888 0.5px;
-  border-bottom: solid #888 0.5px;
-  font-size: 13px;
-  gap: 50px;
-}
-
-.grid-item-two {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
-  gap: 10px;
-}
-
-.last {
-  display: flex;
-  justify-content: space-between;
-}
-
-
-.underline {
-  border-bottom: solid #d35266 0.5px;
-}
-
-.margin {
-  text-align: start;
-}
-
-
-
-}
 
 
 
