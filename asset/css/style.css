@@ -165,16 +165,12 @@ a {
 }
 
 .padding-logo {
-  padding-left: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .margin-top {
   margin-top: 15px;
-}
-
-.padding-logo {
-  padding-left: 10px;
-  padding-right: 10px;
 }
 
 .header {
@@ -399,7 +395,7 @@ a {
     padding: 0;
     margin: 10px;
   }
-  
+
   .icons {
     text-align: right;
   }
@@ -580,7 +576,7 @@ a {
     align-items: center;
     gap: 10px;
   }
-  
+
   .social-media {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -605,7 +601,7 @@ a {
   .hot-ads-flex {
     display: none;
   }
-  
+
   .icons {
     text-align: right;
   }
