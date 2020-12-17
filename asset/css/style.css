@@ -132,7 +132,7 @@ a {
 }
 
 .search-tab {
-  margin-top: 10px;
+  margin-top: 18px;
   background-color: #383838;
   color: #888;
 }
@@ -161,6 +161,11 @@ a {
 
 .list-button {
   margin-top: 15px;
+}
+
+.paragraph {
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .pink {
@@ -196,9 +201,8 @@ a {
 .social-media {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  justify-content: flex-end;
   width: 100%;
-  margin: 0;
+  margin-top: 10px;
 }
 
 .copyright {
@@ -229,7 +233,6 @@ a {
 
 .menu {
   color: white;
-  margin-top: 20px;
   margin-right: 10px;
 }
 
@@ -242,22 +245,22 @@ a {
 }
 
 .next {
-  right: 1%;
-  padding-top: 35%;
+  right: 0.5%;
+  padding-top: 15%;
 }
 
 .prev {
-  left: 1%;
-  padding-top: 35%;
+  left: 0.5%;
+  padding-top: 15%;
 }
 
 .icons {
-  padding-top: 15px;
   text-align: right;
 }
 
 .equal {
   text-align: center;
+  line-height: 1rem;
 }
 
 .margin {
@@ -304,12 +307,12 @@ a {
   }
 
   .next {
-    right: 1%;
+    right: 0.5%;
     padding-top: 15%;
   }
 
   .prev {
-    left: 1%;
+    left: 0.5%;
     padding-top: 15%;
   }
 
@@ -342,6 +345,8 @@ a {
 
   .center {
     text-align: center;
+    padding-top: 10px;
+    font-size: 1rem;
   }
 
   .padding {
