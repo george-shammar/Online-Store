@@ -68,6 +68,7 @@ table {
 .company {
   color: #d35266;
   font-family: 'Gotham Bold', 'Gotham-Light', Arial, Helvetica, sans-serif;
+  font-weight: bold;
 }
 
 a {
@@ -91,6 +92,8 @@ a {
   margin-bottom: 0;
   margin-top: 80px;
   font-family: 'Gotham Bold', 'Gotham-Light', Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 .trans-vagen {
@@ -125,10 +128,11 @@ a {
 
 .categories {
   width: auto;
+  margin-top: 16px;
 }
 
 .search-tab {
-  margin-top: 17px;
+  margin-top: 10px;
   background-color: #383838;
   color: #888;
 }
@@ -152,7 +156,11 @@ a {
   background-color: #d35266;
   color: #383838;
   padding: 5px;
-  margin: 0;
+  margin-top: 10px;
+}
+
+.list-button {
+  margin-top: 15px;
 }
 
 .pink {
@@ -181,7 +189,7 @@ a {
 }
 
 .featured {
-  padding-top: 20px;
+  padding: 20px;
   margin-top: 0;
 }
 
