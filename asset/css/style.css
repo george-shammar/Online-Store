@@ -272,6 +272,10 @@ a {
   font-weight: bold;
 }
 
+.hot-ads-flex {
+  display: none;
+}
+
 @media screen and (min-width: 768px) {
   .underline {
     display: block;
@@ -388,6 +392,7 @@ a {
   }
 
   .hot-ads-flex {
+    display: block;
     width: 50%;
     align-self: center;
     border-bottom: solid #888 0.1px;
