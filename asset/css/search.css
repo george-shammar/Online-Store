@@ -3,7 +3,7 @@
    License: none (public domain)
 */
 
-/* In order to correct linter errors (expected new line after ",") on the CSS reset code, it is neccessary to make each line stand alone, otherwise, there will be numerous stlint errors*/
+/* In order to correct linter errors (expected new line after ",") on the CSS reset code, it is neccessary to make each line stand alone, otherwise, there will be numerous stlint errors */
 html,
 body,
 div,
@@ -69,7 +69,7 @@ article,
 aside,
 canvas,
 details,
-embed, 
+embed,
 figure,
 figcaption,
 footer,
@@ -99,7 +99,7 @@ article,
 aside,
 details,
 figcaption,
-figure, 
+figure,
 footer,
 header,
 hgroup,
@@ -112,18 +112,23 @@ section {
 body {
   line-height: 1;
 }
-ol, ul {
+ol,
+ul {
   list-style: none;
 }
+
 blockquote, q {
   quotes: none;
 }
-blockquote:before, blockquote:after,
+
+blockquote:before,
+blockquote:after,
 q:before,
 q:after {
   content: '';
   content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
