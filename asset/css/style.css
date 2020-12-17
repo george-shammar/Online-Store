@@ -266,14 +266,69 @@ a {
 .margin {
   text-align: center;
 }
-/* 
-.hot-ads-flex {
-  display: none;
-} */
 
 .bold {
   font-weight: bold;
 }
+/*Hot Ads section*/
+
+  .hot-ads {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .hot-ads-flex {
+    width: 50%;
+    align-self: center;
+    border-bottom: solid #888 0.1px;
+    padding-bottom: 20px;
+    margin-left: 10%;
+  }
+
+  .ads {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .hot-ads-img {
+    width: 80%;
+    height: 300px;
+  }
+
+  .cart {
+    display: flex;
+    padding-top: 15px;
+    justify-content: flex-start;
+  }
+  
+  .cart-cart {
+    border: solid #888 0.1px;
+  }
+
+  .aid {
+    padding-bottom: 20px;
+  }
+
+  .cart-cart {
+    display: flex;
+    padding: 15px;
+    background-color: #d35266;
+    color: white;
+  }
+
+  .hot {
+    position: absolute;
+    top: 45%;
+  }
+
+  .right {
+    right: 35%;
+  }
+
+  .hot-ads-flex {
+    display: none;
+  }
 
 @media screen and (min-width: 768px) {
   .underline {
@@ -306,15 +361,13 @@ a {
   .nav-links {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    justify-content: flex-start;
-    align-items: flex-start;
-    width: 40%;
+    width: 60%;
     font-family: Helvetica, 'gotham', sans-serif;
   }
   
   .nav-bar {
     display: grid;
-    grid-template-columns: 10% 90%;
+    grid-template-columns: 20% 80%;
     background-color: #383838;
     height: 30px;
     position: sticky;
