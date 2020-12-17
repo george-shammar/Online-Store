@@ -466,10 +466,6 @@ a {
   .lorem {
     line-height: 1rem;
   }
-
-  .center {
-    padding-top: 20px;
-  }
 }
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
@@ -560,13 +556,4 @@ a {
     margin-left: 50px;
     margin-right: 20px;
   }
-/*   
-  .nav-bar {
-    display: flex;
-    background-color: #383838;
-    height: 30px;
-    position: sticky;
-    top: 0;
-    padding-top: 20px;
-  } */
 }
