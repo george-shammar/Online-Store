@@ -20,6 +20,13 @@ In the footer section, only the company's name and the social media icon, as wel
 
 The search result page contains a group of checkboxes to facilitate product search when the user selects his/her search criteria for the products to be displayed.
 
+![image-eleven](https://user-images.githubusercontent.com/70150423/102149842-056ab480-3e35-11eb-8a24-135339841123.jpg)
+![image-twelve](https://user-images.githubusercontent.com/70150423/102149888-216e5600-3e35-11eb-8e3a-eec3af1aedfd.png)
+![image-thirteen](https://user-images.githubusercontent.com/70150423/102149929-32b76280-3e35-11eb-9b32-d6cf90f21456.png)
+![image-fourteen](https://user-images.githubusercontent.com/70150423/102149953-44006f00-3e35-11eb-8931-fee5c0293390.png)
+![image-fifteen](https://user-images.githubusercontent.com/70150423/102149993-58446c00-3e35-11eb-91a9-e7ae40ccc857.png)
+![image-sixteen](https://user-images.githubusercontent.com/70150423/102150106-67c3b500-3e35-11eb-8bea-29f787b27648.png)
+
  
 
 # Built With
@@ -61,10 +68,3 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 Based on the Creative Commons license of the design, the design idea was by Mohammed Awad on Behance.
-
-![image-eleven](https://user-images.githubusercontent.com/70150423/102149842-056ab480-3e35-11eb-8a24-135339841123.jpg)
-![image-twelve](https://user-images.githubusercontent.com/70150423/102149888-216e5600-3e35-11eb-8e3a-eec3af1aedfd.png)
-![image-thirteen](https://user-images.githubusercontent.com/70150423/102149929-32b76280-3e35-11eb-9b32-d6cf90f21456.png)
-![image-fourteen](https://user-images.githubusercontent.com/70150423/102149953-44006f00-3e35-11eb-8931-fee5c0293390.png)
-![image-fifteen](https://user-images.githubusercontent.com/70150423/102149993-58446c00-3e35-11eb-91a9-e7ae40ccc857.png)
-![image-sixteen](https://user-images.githubusercontent.com/70150423/102150106-67c3b500-3e35-11eb-8bea-29f787b27648.png)
