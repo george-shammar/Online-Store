@@ -285,7 +285,6 @@ a {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
-    /* width: 60%; */
     font-family: Helvetica, 'gotham', sans-serif;
     justify-self: flex-start;
     margin-left: 50px;
