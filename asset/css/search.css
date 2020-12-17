@@ -176,6 +176,14 @@ a {
   padding: 20px;
 }
 
+.padding-logo {
+  padding-left: 20px;
+}
+
+.margin-top {
+  margin-top: 15px;
+}
+
 .header {
   background-color: #d35266;
   height: 200px;

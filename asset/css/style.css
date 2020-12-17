@@ -164,6 +164,19 @@ a {
   color: #888;
 }
 
+.padding-logo {
+  padding-left: 20px;
+}
+
+.margin-top {
+  margin-top: 15px;
+}
+
+.padding-logo {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 .header {
   background-color: #d35266;
   height: 250px;
@@ -290,10 +303,9 @@ a {
 }
 
 .social-media {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
   width: 100%;
   margin-top: 10px;
+  text-align: center;
 }
 
 .copyright {
@@ -347,7 +359,8 @@ a {
 }
 
 .icons {
-  text-align: right;
+  text-align: center;
+  padding-top: 15px;
 }
 
 .equal {
@@ -386,6 +399,10 @@ a {
     padding: 0;
     margin: 10px;
   }
+  
+  .icons {
+    text-align: right;
+  }
 
   .sub-categories {
     display: block;
@@ -408,6 +425,13 @@ a {
     top: 0;
     padding-top: 20px;
     width: 100%;
+  }
+
+  .social-media {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    margin-top: 10px;
   }
 
   .hamburger {
@@ -556,6 +580,14 @@ a {
     align-items: center;
     gap: 10px;
   }
+  
+  .social-media {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    margin-top: 10px;
+    text-align: start;
+  }
 
   .last {
     display: flex;
@@ -572,5 +604,9 @@ a {
 
   .hot-ads-flex {
     display: none;
+  }
+  
+  .icons {
+    text-align: right;
   }
 }
