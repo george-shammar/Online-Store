@@ -239,10 +239,13 @@ a {
 .search-tab {
   margin-left: 5px;
   background-color: #383838;
-  color: #888;
 }
 
 .sub-categories {
+  display: none;
+}
+
+.side-panel {
   display: none;
 }
 
@@ -285,10 +288,6 @@ a {
   padding: 2px;
   margin-right: 40px;
   color: white;
-}
-
-.side-panel {
-  display: none;
 }
 
 .nav-links {
@@ -342,7 +341,6 @@ a {
   .search-tab {
     margin-left: 5px;
     background-color: #383838;
-    color: #888;
   }
 
   .search-grid {
