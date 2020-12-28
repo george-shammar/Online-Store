@@ -1,0 +1,565 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/* In order to correct linter errors (expected new line after ",") on the CSS reset code, it is neccessary to make each line stand alone, otherwise, there will be numerous stlint errors */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Fonts */
+@font-face {
+  font-family: 'Gotham Bold', 'Gotham-Light', Arial, Helvetica, sans-serif;
+  src: url(gothambold);
+  font-family: Helvetica, 'Gotham Bold', 'Gotham-Light', Arial, sans-serif;
+  src: url(HelveticaNeue);
+}
+
+.pink {
+  font-family: 'Gotham Bold', 'Gotham-Light', Arial, Helvetica, sans-serif;
+  color: #d35266;
+}
+
+.featured {
+  margin-top: 0;
+  padding-top: 20px;
+}
+
+.nav-bar {
+  display: flex;
+  background-color: #383838;
+  height: 30px;
+  position: sticky;
+  top: 0;
+  padding-top: 20px;
+}
+
+.company {
+  color: #d35266;
+}
+
+a {
+  text-decoration: none;
+  color: #888;
+}
+
+.text-first {
+  padding: 20px;
+}
+
+.padding-logo {
+  padding-left: 20px;
+}
+
+.margin-top {
+  margin-top: 15px;
+}
+
+.header {
+  background-color: #d35266;
+  height: 200px;
+}
+
+.banner {
+  display: flex;
+  flex-flow: column;
+  color: white;
+  text-align: center;
+  border-top: 50px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.paragraph {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.trans {
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+
+.trans-vagen {
+  margin: 0;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.placeholder {
+  display: none;
+}
+
+.form {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.search {
+  margin-top: 0;
+  width: auto;
+}
+
+.categories {
+  width: auto;
+}
+
+.search-tab {
+  margin-left: 5px;
+  background-color: #383838;
+}
+
+.sub-categories {
+  display: none;
+}
+
+.side-panel {
+  display: none;
+}
+
+.price-tag {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.search-result {
+  display: block;
+  width: 100%;
+  margin: 0;
+}
+
+.border-bottom {
+  border-bottom: solid #888 0.05px;
+}
+
+.border-middle {
+  border-bottom: solid #888 0.05px;
+}
+
+.grey {
+  font-family: Helvetica, 'Gotham Bold', 'Gotham-Light', Arial, sans-serif;
+  color: #888;
+}
+
+.search-result-img {
+  width: 100%;
+  height: 200px;
+}
+
+.second-p {
+  color: #888;
+}
+
+.amount {
+  background-color: #d35266;
+  padding: 2px;
+  margin-right: 40px;
+  color: white;
+}
+
+.nav-links {
+  display: none;
+}
+
+.hamburger {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.menu {
+  color: white;
+  margin-left: 90%;
+}
+
+.items {
+  border: solid #888 0.05px;
+}
+
+.social-media {
+  text-align: center;
+}
+
+.icons {
+  padding-top: 15px;
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+}
+
+/* Large screen break point */
+
+@media screen and (min-width: 768px) {
+  .sub-categories {
+    display: block;
+  }
+
+  .tabs {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 20px;
+    width: auto;
+  }
+
+  .search-tab {
+    margin-left: 5px;
+    background-color: #383838;
+  }
+
+  .search-grid {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .search-result {
+    display: flex;
+    width: 100%;
+    margin: 0;
+  }
+
+  .side-panel {
+    display: block;
+    width: 30%;
+    border-top: solid #888 0.05px;
+  }
+
+  .social-media {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .nav-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    font-family: Helvetica, 'gotham', sans-serif;
+    justify-self: flex-start;
+    margin-left: 50px;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .grid-item-two {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    border-top: solid #888 0.5px;
+    border-bottom: solid #888 0.5px;
+    font-size: 13px;
+    text-align: start;
+  }
+
+  .last {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  .padding {
+    padding-top: 40px;
+    margin-right: 100px;
+  }
+
+  .underline {
+    border-bottom: solid #d35266 0.5px;
+  }
+
+  .equal {
+    padding-left: 50px;
+    padding-top: 20px;
+  }
+
+  .navigation {
+    margin-left: 50px;
+  }
+
+  .placeholder {
+    display: block;
+  }
+
+  .trans {
+    margin-bottom: 0;
+    margin-top: 20px;
+  }
+
+  .trans-vagen {
+    margin: 0;
+  }
+
+  .search-result-img {
+    width: 40%;
+    height: 200px;
+    padding-left: 20px;
+  }
+
+  .items {
+    border-top: solid #888 0.05px;
+    border-right: solid #888 0.05px;
+  }
+
+  .icons {
+    padding-top: 0;
+    text-align: right;
+  }
+
+  .banner {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    color: white;
+    margin-left: 50px;
+    margin-right: 20px;
+  }
+
+  .lorem {
+    line-height: 1rem;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .tabs {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 20px;
+    width: auto;
+  }
+
+  .placeholder {
+    display: block;
+  }
+
+  .trans {
+    margin-bottom: 0;
+    margin-top: 20px;
+  }
+
+  .trans-vagen {
+    margin: 0;
+  }
+
+  .search-result {
+    display: flex;
+    width: 100%;
+    margin: 0;
+  }
+
+  .search-result-img {
+    width: 40%;
+    height: 200px;
+    padding-left: 20px;
+  }
+
+  .items {
+    border-top: solid #888 0.05px;
+    border-right: solid #888 0.05px;
+  }
+
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    width: 100%;
+    border-top: solid #888 0.5px;
+    border-bottom: solid #888 0.5px;
+    font-size: 13px;
+    gap: 50px;
+    text-align: start;
+  }
+
+  .grid-item-two {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .last {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .underline {
+    border-bottom: solid #d35266 0.5px;
+  }
+
+  .social-media {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .icons {
+    padding-top: 15px;
+    text-align: right;
+  }
+
+  .banner {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    color: white;
+    margin-left: 50px;
+    margin-right: 20px;
+  }
+}
