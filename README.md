@@ -53,7 +53,7 @@ Download the .zip file to your machine, clicking on the Code button on the top o
 👤 **George Gbenle**:
 - Github profile: [@george-shammar](https://github.com/george-shammar)
 - Twitter: [@GeorgeShammar](https://twitter.com/GeorgeShammar)
-- linkedin: [George Gbenle](https://www.linkedin.com/in/george-g-5414091b7/)
+- linkedin: [George Gbenle](https://www.linkedin.com/in/georgegbenle/)
     
 ## 🤝 Contributing
 
